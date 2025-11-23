@@ -3,6 +3,7 @@
 #include <windows.h>
 
 #define NUM_ITERATIONS 20
+extern float sdot;
 
 /**
  * @brief Calculates the dot product of two single-precision float vectors.
@@ -43,13 +44,13 @@ void time_function(float (*func)(const float*, const float*, int), const float* 
     // 2. Run and time each iteration individually
     for (int i = 0; i < NUM_ITERATIONS; i++) {
 
-        float run_result;
+       // float run_result;
 
         // Start timer for this single run
         QueryPerformanceCounter(&start);
 
         // Run the function and get its result
-        run_result = func(A, B, n);
+        sdot = func(A, B, n); //Store result in sdot
 
         // Stop timer
         QueryPerformanceCounter(&end);
@@ -61,7 +62,7 @@ void time_function(float (*func)(const float*, const float*, int), const float* 
         total_time_ms += run_time_ms;
 
         // Print the result and time for this specific run
-        printf("  Run %2d: Result = %.2f, Time = %.6f ms\n", i + 1, run_result, run_time_ms);
+        printf("  Run %2d: Result = %.2f, Time = %.6f ms\n", i + 1, sdot, run_time_ms);
     }
 
     // 3. Print the final summary and average

@@ -1,3 +1,7 @@
+section .data
+global sdot
+sdot dd 0.0
+
 section .text
 bits 64
 default rel 
@@ -47,4 +51,5 @@ loop_start:
     jnz loop_start           ; If n is not zero, jump back to .loop
 
 end:
-    ret                 ; Return value is already in XMM0
+    movss [sdot], xmm0 ;Store result in sdot
+    ret         ; Return value is already in XMM0
