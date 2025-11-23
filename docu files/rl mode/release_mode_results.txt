@@ -1,0 +1,188 @@
+
+
+==============================================
+Running Benchmarks for Size 2^20 (n = 1048576)
+==============================================
+Allocating memory...
+Initializing vectors...
+
+--- C Scalar Performance per test ---
+Running warm-up...
+----------------------------------------
+  Run  1: Result = 2097152.00, Time = 2.240200 ms
+  Run  2: Result = 2097152.00, Time = 2.318000 ms
+  Run  3: Result = 2097152.00, Time = 0.510700 ms
+  Run  4: Result = 2097152.00, Time = 0.485900 ms
+  Run  5: Result = 2097152.00, Time = 0.531700 ms
+  Run  6: Result = 2097152.00, Time = 0.513800 ms
+  Run  7: Result = 2097152.00, Time = 0.523800 ms
+  Run  8: Result = 2097152.00, Time = 0.692600 ms
+  Run  9: Result = 2097152.00, Time = 0.514800 ms
+  Run 10: Result = 2097152.00, Time = 0.502800 ms
+  Run 11: Result = 2097152.00, Time = 0.493300 ms
+  Run 12: Result = 2097152.00, Time = 0.505100 ms
+  Run 13: Result = 2097152.00, Time = 0.685600 ms
+  Run 14: Result = 2097152.00, Time = 0.483100 ms
+  Run 15: Result = 2097152.00, Time = 0.481100 ms
+  Run 16: Result = 2097152.00, Time = 0.490100 ms
+  Run 17: Result = 2097152.00, Time = 0.506100 ms
+  Run 18: Result = 2097152.00, Time = 0.513400 ms
+  Run 19: Result = 2097152.00, Time = 1.129200 ms
+  Run 20: Result = 2097152.00, Time = 0.520200 ms
+----------------------------------------
+Result (Verification): 2097152.00
+Average Time (20 runs): 0.732075 milliseconds
+
+--- x64 Assembly Performance per test ---
+Running warm-up...
+----------------------------------------
+  Run  1: Result = 2097152.00, Time = 0.477400 ms
+  Run  2: Result = 2097152.00, Time = 0.479000 ms
+  Run  3: Result = 2097152.00, Time = 0.548600 ms
+  Run  4: Result = 2097152.00, Time = 0.546800 ms
+  Run  5: Result = 2097152.00, Time = 0.494400 ms
+  Run  6: Result = 2097152.00, Time = 0.552600 ms
+  Run  7: Result = 2097152.00, Time = 0.537600 ms
+  Run  8: Result = 2097152.00, Time = 0.541500 ms
+  Run  9: Result = 2097152.00, Time = 0.538600 ms
+  Run 10: Result = 2097152.00, Time = 0.533400 ms
+  Run 11: Result = 2097152.00, Time = 0.516900 ms
+  Run 12: Result = 2097152.00, Time = 0.669100 ms
+  Run 13: Result = 2097152.00, Time = 0.518100 ms
+  Run 14: Result = 2097152.00, Time = 0.517000 ms
+  Run 15: Result = 2097152.00, Time = 0.474700 ms
+  Run 16: Result = 2097152.00, Time = 0.481800 ms
+  Run 17: Result = 2097152.00, Time = 0.506000 ms
+  Run 18: Result = 2097152.00, Time = 0.510600 ms
+  Run 19: Result = 2097152.00, Time = 0.477900 ms
+  Run 20: Result = 2097152.00, Time = 0.483800 ms
+----------------------------------------
+Result (Verification): 2097152.00
+Average Time (20 runs): 0.520290 milliseconds
+
+
+==============================================
+Running Benchmarks for Size 2^24 (n = 16777216)
+==============================================
+Allocating memory...
+Initializing vectors...
+
+--- C Scalar Performance per test ---
+Running warm-up...
+----------------------------------------
+  Run  1: Result = 33554432.00, Time = 8.106700 ms
+  Run  2: Result = 33554432.00, Time = 9.566200 ms
+  Run  3: Result = 33554432.00, Time = 9.523600 ms
+  Run  4: Result = 33554432.00, Time = 8.570800 ms
+  Run  5: Result = 33554432.00, Time = 8.376500 ms
+  Run  6: Result = 33554432.00, Time = 8.140400 ms
+  Run  7: Result = 33554432.00, Time = 8.582700 ms
+  Run  8: Result = 33554432.00, Time = 9.918600 ms
+  Run  9: Result = 33554432.00, Time = 9.522400 ms
+  Run 10: Result = 33554432.00, Time = 8.177500 ms
+  Run 11: Result = 33554432.00, Time = 9.514800 ms
+  Run 12: Result = 33554432.00, Time = 9.984200 ms
+  Run 13: Result = 33554432.00, Time = 8.106600 ms
+  Run 14: Result = 33554432.00, Time = 9.602900 ms
+  Run 15: Result = 33554432.00, Time = 8.079300 ms
+  Run 16: Result = 33554432.00, Time = 8.640300 ms
+  Run 17: Result = 33554432.00, Time = 9.208800 ms
+  Run 18: Result = 33554432.00, Time = 9.504700 ms
+  Run 19: Result = 33554432.00, Time = 9.474600 ms
+  Run 20: Result = 33554432.00, Time = 9.572400 ms
+----------------------------------------
+Result (Verification): 33554432.00
+Average Time (20 runs): 9.008700 milliseconds
+
+--- x64 Assembly Performance per test ---
+Running warm-up...
+----------------------------------------
+  Run  1: Result = 33554432.00, Time = 10.742200 ms
+  Run  2: Result = 33554432.00, Time = 9.696300 ms
+  Run  3: Result = 33554432.00, Time = 9.923500 ms
+  Run  4: Result = 33554432.00, Time = 9.316900 ms
+  Run  5: Result = 33554432.00, Time = 8.405700 ms
+  Run  6: Result = 33554432.00, Time = 9.217900 ms
+  Run  7: Result = 33554432.00, Time = 8.769300 ms
+  Run  8: Result = 33554432.00, Time = 9.596700 ms
+  Run  9: Result = 33554432.00, Time = 9.648900 ms
+  Run 10: Result = 33554432.00, Time = 10.230900 ms
+  Run 11: Result = 33554432.00, Time = 9.138100 ms
+  Run 12: Result = 33554432.00, Time = 9.414300 ms
+  Run 13: Result = 33554432.00, Time = 9.862300 ms
+  Run 14: Result = 33554432.00, Time = 9.207700 ms
+  Run 15: Result = 33554432.00, Time = 10.006900 ms
+  Run 16: Result = 33554432.00, Time = 9.226000 ms
+  Run 17: Result = 33554432.00, Time = 10.002700 ms
+  Run 18: Result = 33554432.00, Time = 9.393500 ms
+  Run 19: Result = 33554432.00, Time = 9.778800 ms
+  Run 20: Result = 33554432.00, Time = 9.869900 ms
+----------------------------------------
+Result (Verification): 33554432.00
+Average Time (20 runs): 9.572425 milliseconds
+
+
+==============================================
+Running Benchmarks for Size 2^30 (n = 1073741824)
+==============================================
+Allocating memory...
+Initializing vectors...
+
+--- C Scalar Performance per test ---
+Running warm-up...
+----------------------------------------
+  Run  1: Result = 33554432.00, Time = 3088.805100 ms
+  Run  2: Result = 33554432.00, Time = 1148.232700 ms
+  Run  3: Result = 33554432.00, Time = 1047.519100 ms
+  Run  4: Result = 33554432.00, Time = 3235.436400 ms
+  Run  5: Result = 33554432.00, Time = 3082.150200 ms
+  Run  6: Result = 33554432.00, Time = 3001.239000 ms
+  Run  7: Result = 33554432.00, Time = 3299.966500 ms
+  Run  8: Result = 33554432.00, Time = 2893.820000 ms
+  Run  9: Result = 33554432.00, Time = 2266.528100 ms
+  Run 10: Result = 33554432.00, Time = 2158.572200 ms
+  Run 11: Result = 33554432.00, Time = 576.366800 ms
+  Run 12: Result = 33554432.00, Time = 556.380900 ms
+  Run 13: Result = 33554432.00, Time = 556.391900 ms
+  Run 14: Result = 33554432.00, Time = 556.039700 ms
+  Run 15: Result = 33554432.00, Time = 561.853900 ms
+  Run 16: Result = 33554432.00, Time = 544.567800 ms
+  Run 17: Result = 33554432.00, Time = 538.888000 ms
+  Run 18: Result = 33554432.00, Time = 559.966100 ms
+  Run 19: Result = 33554432.00, Time = 581.104800 ms
+  Run 20: Result = 33554432.00, Time = 549.756900 ms
+----------------------------------------
+Result (Verification): 33554432.00
+Average Time (20 runs): 1540.179305 milliseconds
+
+--- x64 Assembly Performance per test ---
+Running warm-up...
+----------------------------------------
+  Run  1: Result = 33554432.00, Time = 550.080800 ms
+  Run  2: Result = 33554432.00, Time = 572.841700 ms
+  Run  3: Result = 33554432.00, Time = 575.947400 ms
+  Run  4: Result = 33554432.00, Time = 574.954500 ms
+  Run  5: Result = 33554432.00, Time = 579.977500 ms
+  Run  6: Result = 33554432.00, Time = 576.215800 ms
+  Run  7: Result = 33554432.00, Time = 553.235400 ms
+  Run  8: Result = 33554432.00, Time = 561.531800 ms
+  Run  9: Result = 33554432.00, Time = 572.265000 ms
+  Run 10: Result = 33554432.00, Time = 577.544700 ms
+  Run 11: Result = 33554432.00, Time = 603.351900 ms
+  Run 12: Result = 33554432.00, Time = 618.282000 ms
+  Run 13: Result = 33554432.00, Time = 559.838500 ms
+  Run 14: Result = 33554432.00, Time = 615.602300 ms
+  Run 15: Result = 33554432.00, Time = 593.836600 ms
+  Run 16: Result = 33554432.00, Time = 562.571200 ms
+  Run 17: Result = 33554432.00, Time = 562.195900 ms
+  Run 18: Result = 33554432.00, Time = 610.784500 ms
+  Run 19: Result = 33554432.00, Time = 592.707000 ms
+  Run 20: Result = 33554432.00, Time = 557.645700 ms
+----------------------------------------
+Result (Verification): 33554432.00
+Average Time (20 runs): 578.570510 milliseconds
+
+Benchmark Complete.
+
+C:\Users\Lenovo\Desktop\MCO2\MCO2\x64\Release\MCO2.exe (process 67488) exited with code 0 (0x0).
+Press any key to close this window . . .
