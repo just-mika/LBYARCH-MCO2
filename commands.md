@@ -5,14 +5,14 @@ Assemble asm File
 
 DEBUG
 - Compile C File
-- ```gcc -c main.c -o main.obj -m64 -O0 -g```
+-- ```gcc -c main.c -o main.obj -m64 -O0 -g```
 
 - Link the obj files
-- ```gcc main.obj asmfunc.obj -o MCO2_Debug.exe -m64```
+-- ```gcc main.obj asmfunc.obj -o MCO2_Debug.exe -m64```
 
 RELEASE
 - Compile C File
-- ```gcc -c main.c -o main.obj -m64 -O3```
+-- ```gcc -c main.c -o main.obj -m64 -O3```
 
 - Link the obj files
-- ```gcc main.obj asmfunc.obj -o MCO2_Release.exe -m64```
+-- ```gcc main.obj asmfunc.obj -o MCO2_Release.exe -m64```
