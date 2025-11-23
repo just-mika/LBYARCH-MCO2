@@ -1,5 +1,6 @@
-# Amon, Mikaela Nicole
-# Filipino, Eunice Marble
+# LBYARCH MCO2 - x86-to-C interface programming project
+- Amon, Mikaela Nicole
+- Filipino, Eunice Marble
 
 I.) Comparative execution time and short analysis of the performance of the kernels
 
