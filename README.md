@@ -3,6 +3,12 @@
 - Filipino, Eunice Marble
 
 ### I.) Comparative execution time and short analysis of the performance of the kernels
+The following table summarizes the average execution times for the two kernels across all tested sizes and build modes.
+| Vector Size (n)  |     C (Debug)    | x86-64 Assembly (Debug) |    C (Release)     | x86-64 Assembly (Release) |
+|:----------------:|:----------------:|:-----------------------:|:------------------:|:-------------------------:|
+| 2<sup>20</sup>   |    2.423585 ms   |       0.533070 ms       |    0.732075 ms     |         0.520290 ms       |
+| 2<sup>24</sup>   |   31.434300 ms   |       9.786205 ms       |    9.008700 ms     |         9.572425 ms       |
+| 2<sup>30</sup>   | 5854.377045 ms   |    2542.689880 ms       | 1540.179305 ms     |       578.570510 ms       |
 
 ### II.) Screenshot of the program output with the correctness check (C).
 - **DEBUG MODE**
